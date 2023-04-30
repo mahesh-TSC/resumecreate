@@ -1,0 +1,74 @@
+*{
+    /* background-color: powderblue; */
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url("C:\Training\29_apr_task\public\images.jpg");
+    background-attachment: fixed;
+}
+header {
+    background: #808080a1;
+}
+header ul{
+    display: flex;
+    background: #808080a1;
+}
+header ul li {
+    margin: 19px 4%;
+    list-style: none;
+    background: #80808014;
+}
+header ul li:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    margin: 2% 9% 0% 31%;
+}
+.identity{
+    border: 1x solid;
+}
+button {
+    color: white;
+    background: blue;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    border: none;
+    margin: 3%;
+}
+button:hover{
+    background: #000;
+}
+ul li{
+    font-size: 24px;
+    margin: 2% 9% 0% 31%;
+}
+.btn {
+    margin: 3% 31%;
+    text-align: center;
+}
+footer{
+    background: black !important;
+    border: 1px solid;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+footer p{
+    color: white ;
+    background: black !important;
+    font-size: 11px;
+    margin: 1%;
+}
